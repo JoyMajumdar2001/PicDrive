@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/view_item"
+        android:title="View"
+        android:icon="@drawable/baseline_remove_red_eye_24"/>
+    <item android:id="@+id/share_item"
+        android:title="Share"
+        android:icon="@drawable/baseline_share_24"/>
+    <item android:id="@+id/delete_item"
+        android:title="Delete"
+        android:icon="@drawable/baseline_delete_24"/>
+</menu>

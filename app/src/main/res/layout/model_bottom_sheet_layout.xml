@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+
+    <ImageView
+        android:id="@+id/profileView"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/profile_ic"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="abc@email.com"
+        style="@style/TextAppearance.Material3.TitleMedium"
+        android:layout_marginBottom="2dp"/>
+    <TextView
+        android:id="@+id/idText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="123avbcsrt"
+        style="@style/TextAppearance.Material3.LabelSmall"
+        android:layout_marginBottom="8dp"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/dateChip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last updated : "
+        app:chipIcon="@drawable/baseline_access_time_24"
+        app:chipIconTint="?attr/colorPrimary"
+        android:textColor="?attr/colorPrimary" />
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="8dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/logout_ic"
+        android:text="Logout"
+        style="@style/Widget.Material3.Button.ElevatedButton"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

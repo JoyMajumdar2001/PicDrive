@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1034527107630",
+    "project_id": "picdrive-app",
+    "storage_bucket": "picdrive-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034527107630:android:79f05ddba4641586320dbf",
+        "android_client_info": {
+          "package_name": "com.qdot.picdrive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034527107630-j1dlgpmh784i99vtfp172h4jg7l1cfgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qdot.picdrive",
+            "certificate_hash": "217b604705642c34209bfc4151cf3cb7c4c7d4eb"
+          }
+        },
+        {
+          "client_id": "1034527107630-cifslqodumhc8d5raoin8ibi48mja08i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC-nZ6cDx4RPdjYKEQSk9O2Lb_2Ktnj7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034527107630-cifslqodumhc8d5raoin8ibi48mja08i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
